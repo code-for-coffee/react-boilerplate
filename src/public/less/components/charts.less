@@ -1,0 +1,28 @@
+// Charts
+// ======
+// Chart styling
+
+.strike-chart {
+  background: @white;
+  .box-sizing(border-box);
+  border: 1px solid darken(@white, 10%);
+}
+
+.strike-chart-bar {
+  margin: 0.5em 0;
+  margin: 0.5rem 0;
+  background: @red;
+  white-space: nowrap;;
+  overflow: visible;
+  padding: 0.5em;
+  padding: 0.5rem;
+
+  .strike-bar-label,
+  .strike-bar-total {
+    color: @white;
+    display: inline-block;
+  }
+
+  .strike-bar-total { float: right; }
+  .strike-bar-label { float: left; }
+}
